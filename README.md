@@ -1,47 +1,32 @@
-# Agilitz Website Prototype — v5 Final
+# Agilitz Website v14 — Corrected Feedback Build
 
-## Open
-Start with `index.html`.
+This build is based on v13, re-audited against the supplied Agilitz Feedback Form.
 
-The package uses a **flat page structure**:
-- `services.html`
-- `platforms.html`
-- `platform-business-central.html`
-- `about.html`
-- etc.
+Key correction in v14: the Locations page no longer uses Leaflet/OpenStreetMap tile servers. It uses a self-contained interactive SVG map, so it works offline, on GitHub Pages and in Webfactory without third-party tile blocking. The leadership page duplicate CTA was also removed in line with the feedback.
 
-There are no `/page/index.html` routes and no root-relative `/services.html` links. This is intentional so navigation continues to work when the package is opened locally or inside a preview environment.
-
-## Design direction
-- Agilitz original brand family retained: deep navy, cyan, yellow and white.
-- Homepage deliberately simplified.
-- Services lead "What we do".
-- Services and platforms cross-link both ways.
-- Dynamics 365 Business Central restored as a first-class platform.
-- About includes Vision, Mission and the four principles.
-- Supplied photos are used as web photography rather than whole-slide screenshots.
-- `photography-references.html` contains iStock **reference links only** for licensed final image sourcing. iStock copyrighted images are not redistributed in this prototype.
-
-## Final production work
-- Replace prototype/supplied visuals with approved licensed photography where required.
-- Populate leadership biographies and photography.
-- Connect forms to the chosen CRM/marketing platform.
-- Add approved Privacy and Cookie policy text.
-- Add CMS integration for articles/events.
+See `FEEDBACK-IMPLEMENTATION.md` for the feedback audit.
 
 
-## v6 careers content update
-- Careers, Why Agilitz, Training Programmes and Campus Recruitment have been rebuilt from the supplied HR/careers content.
-- Careers is now a connected navigation family in desktop and mobile navigation.
-- The About hero has been refined to address the supplied screenshot: smaller editorial headline and image positioning that crops out the baked-in slide copy.
-- All routes remain flat relative HTML links for local/offline preview.
+## v15 platform expansion
+- Desktop shell widened for a fuller browser presentation.
+- Dynamics 365 Finance and Operations is now a hub for Finance, Supply Chain Management, Commerce, Project Operations and Human Resources, each with a dedicated page.
+- Business Central now has separate Essentials and Premium pages.
+- Salesforce migration accelerator is branded **LitzSF**, aligned to the supplied Agilitz LitzSF deck.
+- Locations map is self-contained and filterable; it does not use OpenStreetMap tiles.
+- Platform cards use the current Microsoft Dynamics 365/Power Platform icon artwork. Microsoft publishes the official scalable icon pack via Microsoft Learn / Download Center; the website references exact mirrored SVG files from that published pack. Review Microsoft trademark/icon usage requirements before production release.
+
+- v15.1: canonical Finance and Operations URL added; Business Central edition labels expanded; wider desktop shell; locations map markers/footprint filters refined.
 
 
-## v7 refinements
-- Removed the site-wide blue top utility bar.
-- About page now combines the current Agilitz mission and core values with the established vision, delivery principles and corporate capability brief.
-- Replaced the About hero artwork containing embedded text with a clean business photograph.
-- Added a customer-facing "What makes Agilitz an ideal partner" section using the corporate capability brief.
-- Leadership page now reflects the current public Agilitz leadership roster and concise biographies; profile photographs reference the current public Agilitz site and fall back to initials when unavailable.
-- Replaced the website logo asset with the high-resolution logo embedded in the current corporate brief.
-- About, Story, Leadership and Partnerships are connected through the About navigation menu.
+## v17 changes
+- Corrected single-column hero alignment so breadcrumbs, kickers and headings share the same left edge as the page content below.
+- Expanded Dynamics 365 Customer Engagement into Sales, Customer Service, Customer Insights and Field Service pages.
+- Expanded Microsoft Power Platform into Power Apps, Power Automate, Power BI, Power Pages, Copilot Studio and Dataverse pages.
+- Replaced product-logo-only business outcome panels with native HTML/CSS outcome illustrations.
+- Kept the Agilitz logo, typography and current colour scheme unchanged.
+
+
+## v17 platform expansion
+- Added Microsoft Fabric as a first-class platform.
+- Added Microsoft Copilot & Agents as a first-class platform.
+- Added cross-links through Data & AI, Power Platform, Dynamics 365 and Business Central.
