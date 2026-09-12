@@ -52,6 +52,7 @@ document.querySelectorAll('a[href$=".html"]').forEach(a=>{
   },{passive:true});
   show(0);
   start();
+  window.addEventListener('pageshow',()=>{ show(0); });
 })();
 
 
